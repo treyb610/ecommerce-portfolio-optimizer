@@ -41,18 +41,6 @@ Then create your data folders:
 mkdir -p data/raw data/processed
 ```
 
-## Project Structure
-
-```
-your-project/
-├── data/
-│   ├── raw/           # Your original CSV files
-│   └── processed/     # Enhanced datasets
-├── notebooks/         # The main analysis notebooks
-├── reports/          # Generated summaries
-└── README.md
-```
-
 ## Usage
 
 Start with your product data (CSV with columns like price, rating, category, etc.) and work through the notebooks in order:
