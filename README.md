@@ -106,12 +106,6 @@ This isn't just academic analysis - it's built around practical business questio
 
 The three-phase structure mirrors how real business analysis typically flows: understand your data, explore the patterns, then decide what to do about it.
 
-## Contributing
-
-Found a bug or want to add a feature? Pull requests welcome. Just make sure to:
-- Follow existing code style
-- Add comments explaining your changes
-- Test with sample data first
 
 ## License
 
