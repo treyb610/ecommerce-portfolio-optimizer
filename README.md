@@ -117,6 +117,8 @@ Found a bug or want to add a feature? Pull requests welcome. Just make sure to:
 
 MIT License - use it however you want.
 
-## Questions?
+## Contact
 
-Open an issue on GitHub or reach out directly. This project works best when it's solving real business problems, so feedback from actual users is valuable.
+[Trager Bos]  
+[trager.bos@temple.edu]  
+[https://www.linkedin.com/in/trager-bos/]
