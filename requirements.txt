@@ -1,0 +1,29 @@
+# Core Data Science Libraries
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Visualization Libraries
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Development Environment
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Optional: Additional Analysis Tools
+scikit-learn>=1.1.0
+scipy>=1.9.0
+
+# Optional: Configuration and Utilities
+pyyaml>=6.0
+python-dateutil>=2.8.0
+
+# For better Jupyter experience
+ipywidgets>=7.6.0
+jupyterlab>=3.0.0
+
+# Development Dependencies (optional)
+pytest>=7.0.0
+black>=22.0.0
+flake8>=5.0.0
