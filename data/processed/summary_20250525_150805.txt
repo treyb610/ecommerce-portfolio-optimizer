@@ -1,0 +1,14 @@
+E-COMMERCE DATASET SUMMARY
+=========================
+
+Generated: 2025-05-25 15:08:05
+Total Products: 2000
+Categories: 4
+Price Range: $13.58 - $2708.43
+Average Rating: 4.09
+
+Performance Distribution:
+  Premium Star: 505 (25.2%)
+  Budget Basic: 501 (25.1%)
+  Value Champion: 499 (24.9%)
+  Overpriced: 495 (24.8%)
