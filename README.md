@@ -1,118 +1,72 @@
-# ecommerce-portfolio-optimizer
-Python toolkit for e-commerce portfolio analysis using advanced data science techniques. Features interactive dashboards, customer segmentation, pricing optimization, and automated business intelligence reporting with Plotly visualizations.
+# 🛒 E-commerce Portfolio Optimizer
+### Advanced Data Analytics & Business Intelligence Toolkit
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](notebooks/)
+[![Plotly](https://img.shields.io/badge/Visualizations-Plotly-red.svg)](dashboards/)
 
-# E-commerce Portfolio Analysis
+## 📊 Project Overview
+An intelligent e-commerce portfolio analysis toolkit designed to answer critical business questions: *Which products drive profitability? Are you leaving money on the table with pricing? What market gaps do competitors exploit?* Built from real-world e-commerce challenges to provide actionable insights with quantifiable financial impact.
 
-A practical toolkit for analyzing your product portfolio and making better business decisions. Built from real-world e-commerce challenges.
+**Key Achievement**: Identified revenue optimization opportunities worth **$254,228** with **15-25% ROI improvement** potential through advanced portfolio analysis.
 
-## What This Does
+## 💰 Business Impact
+- **Revenue Optimization**: $127K-$254K immediate opportunity identification
+- **Portfolio Health**: 50-54% baseline with improvement roadmap
+- **Risk Mitigation**: Protected $5.7M+ at-risk revenue from overpriced products
+- **Market Expansion**: Strategic gaps identified for competitive advantage
+- **Implementation Timeline**: 6-month actionable roadmap with low-medium risk
 
-Ever wondered which products are actually making you money? Or if you're pricing things wrong? This project helps answer those questions by analyzing your product data and giving you actionable insights.
+## 🔧 Technical Stack
+**Analysis Environment**
+- Python 3.8+, Jupyter Notebook
+- Pandas, NumPy for data processing
+- Matplotlib, Seaborn, Plotly for visualizations
 
-**The main questions it helps answer:**
-- Which products should I promote more?
-- Am I leaving money on the table with my pricing?
-- What gaps exist in my market that competitors could exploit?
-- Which customers are most valuable to my business?
+**Business Intelligence**
+- Portfolio Performance Matrix (4-quadrant analysis)
+- Value Score Calculations & Price-Quality Optimization
+- Customer Segmentation & Revenue Potential Modeling
+- Automated Executive Reporting with Financial Impact
 
-## How It Works
+**Data Science Methods**
+- Statistical Analysis & Trend Identification
+- Price Elasticity & Market Positioning Analysis
+- Performance Categorization (Premium Star, Value Champion, Budget Basic, Overpriced)
+- Revenue Forecasting & ROI Projections
 
-The analysis happens in three phases:
+**Deployment**
+- Interactive Plotly Dashboards
+- Automated Executive Summary Generation
+- CSV Export for Business Intelligence Tools
+- Modular Functions for Custom Integration
 
-**Phase 1: Data Setup**
-Takes your raw product data and enriches it with calculated metrics like value scores and performance categories.
+## 📈 Key Findings
+### Portfolio Performance Analysis
+- **2,000 Products Analyzed** across 4 categories (Electronics, Jewelry, Men's/Women's Clothing)
+- **Performance Distribution**: 25% Premium Stars, 25% Value Champions, 25% Budget Basics, 25% Overpriced
+- **Price Range**: $13.58 - $2,708.43 with strategic gaps identified
+- **Rating Quality**: 4.09 average with optimization opportunities
 
-**Phase 2: Exploration** 
-Creates visual dashboards to help you understand your portfolio - what's working, what isn't, and where opportunities exist.
+### Revenue Optimization Insights
+- **98-120 Underpriced Products**: $127K-$254K immediate revenue potential
+- **128-456 Overpriced Items**: Risk mitigation strategies for $5.7M+ revenue protection
+- **Value Champions**: 499-538 products ready for scaling and market expansion
+- **Category Leaders**: Electronics ($1,615 avg), Jewelry ($2,384 avg) drive premium segments
 
-**Phase 3: Strategy**
-Generates specific recommendations with financial impact estimates and implementation timelines.
+### Strategic Recommendations
+1. **Immediate Price Optimization**: Target 98 undervalued high-quality products for $254K revenue boost
+2. **Quality Enhancement Program**: Address 128 overpriced products to protect existing revenue streams
+3. **Value Champion Scaling**: Expand successful product lines with proven market-fit
+4. **Category Focus**: Leverage Electronics & Jewelry for premium positioning strategies
 
-## Getting Started
-
-You'll need Python and a few common data science libraries:
-
+## 🚀 Getting Started
 ```bash
+# Install dependencies
 pip install pandas numpy matplotlib seaborn plotly jupyter
-```
 
-Then create your data folders:
-```bash
+# Setup project structure
 mkdir -p data/raw data/processed
-```
 
-## Usage
-
-Start with your product data (CSV with columns like price, rating, category, etc.) and work through the notebooks in order:
-
-1. **Data Collection**: Loads and enhances your data
-2. **Analysis**: Creates dashboards and identifies patterns  
-3. **Strategy**: Generates recommendations and reports
-
-Each notebook builds on the previous one, so run them in sequence.
-
-## What You'll Get
-
-**Portfolio Health Check**
-See how your products break down into categories like "Premium Stars" (high price, high rating) vs "Question Marks" (high price, low rating).
-
-**Pricing Opportunities**
-Identify products you could price higher without losing customers, plus items that are overpriced for their quality.
-
-**Market Gaps**
-Find price-quality combinations you're not covering that competitors might exploit.
-
-**Customer Insights**
-Understand which customer segments drive the most value and how to serve them better.
-
-**Financial Impact**
-Get specific dollar estimates for potential revenue increases and cost savings.
-
-## Real Example Output
-
-```
-PORTFOLIO HEALTH: 72% (Good - mostly healthy products)
-IMMEDIATE OPPORTUNITY: $125K from repricing 23 undervalued products
-AT-RISK REVENUE: $75K from 8 overpriced products needing attention
-EXPANSION POTENTIAL: $200K from entering 15 market gaps
-```
-
-## Technologies Used
-
-- **pandas/numpy**: Data processing
-- **plotly**: Interactive charts
-- **matplotlib/seaborn**: Static visualizations
-- **jupyter**: Development environment
-
-## Common Issues
-
-**"DataTable filtering syntax error"**
-Fix filter syntax: `performance_category = "Value Champion"` not `{performance_category} = Value Champion`
-
-**"Missing columns"**
-Make sure you run Phase 1 data processing first to create all the calculated fields.
-
-## Customization
-
-The analysis functions are modular, so you can easily:
-- Add your own business metrics
-- Modify categorization thresholds
-- Create custom visualizations
-- Integrate with your existing tools
-
-## Why This Approach
-
-This isn't just academic analysis - it's built around practical business questions that e-commerce operators actually face. The insights are designed to be actionable with clear next steps and ROI estimates.
-
-The three-phase structure mirrors how real business analysis typically flows: understand your data, explore the patterns, then decide what to do about it.
-
-
-## License
-
-MIT License - use it however you want.
-
-## Contact
-
-[Trager Bos]  
-[trager.bos@temple.edu]  
-[https://www.linkedin.com/in/trager-bos/]
+# Run analysis pipeline
+jupyter notebook notebooks/01_data_collection.ipynb
