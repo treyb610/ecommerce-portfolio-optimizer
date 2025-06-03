@@ -1,23 +1,23 @@
-# 🛒 E-commerce Portfolio Optimizer
+#  E-commerce Portfolio Optimizer
 ### Advanced Data Analytics & Business Intelligence Toolkit
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](notebooks/)
 [![Plotly](https://img.shields.io/badge/Visualizations-Plotly-red.svg)](dashboards/)
 
-## 📊 Project Overview
+##  Project Overview
 An intelligent e-commerce portfolio analysis toolkit designed to answer critical business questions: *Which products drive profitability? Are you leaving money on the table with pricing? What market gaps do competitors exploit?* Built from real-world e-commerce challenges to provide actionable insights with quantifiable financial impact.
 
 **Key Achievement**: Identified revenue optimization opportunities worth **$254,228** with **15-25% ROI improvement** potential through advanced portfolio analysis.
 
-## 💰 Business Impact
+##  Business Impact
 - **Revenue Optimization**: $127K-$254K immediate opportunity identification
 - **Portfolio Health**: 50-54% baseline with improvement roadmap
 - **Risk Mitigation**: Protected $5.7M+ at-risk revenue from overpriced products
 - **Market Expansion**: Strategic gaps identified for competitive advantage
 - **Implementation Timeline**: 6-month actionable roadmap with low-medium risk
 
-## 🔧 Technical Stack
+##  Technical Stack
 **Analysis Environment**
 - Python 3.8+, Jupyter Notebook
 - Pandas, NumPy for data processing
@@ -41,7 +41,7 @@ An intelligent e-commerce portfolio analysis toolkit designed to answer critical
 - CSV Export for Business Intelligence Tools
 - Modular Functions for Custom Integration
 
-## 📈 Key Findings
+##  Key Findings
 ### Portfolio Performance Analysis
 - **2,000 Products Analyzed** across 4 categories (Electronics, Jewelry, Men's/Women's Clothing)
 - **Performance Distribution**: 25% Premium Stars, 25% Value Champions, 25% Budget Basics, 25% Overpriced
@@ -60,7 +60,7 @@ An intelligent e-commerce portfolio analysis toolkit designed to answer critical
 3. **Value Champion Scaling**: Expand successful product lines with proven market-fit
 4. **Category Focus**: Leverage Electronics & Jewelry for premium positioning strategies
 
-## 🚀 Getting Started
+##  Getting Started
 ```bash
 # Install dependencies
 pip install pandas numpy matplotlib seaborn plotly jupyter
